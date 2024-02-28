@@ -217,6 +217,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &843567990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 843567992}
+  - component: {fileID: 843567991}
+  m_Layer: 0
+  m_Name: Generate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &843567991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843567990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04303a340ca35b64f80d6e6eda905f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 7914801030805806652, guid: 8c8e950fe82bd2a4580accc21dd55745, type: 3}
+  widht: 100
+  height: 5
+  large: 100
+  detail: 30
+  seed: 0
+--- !u!4 &843567992
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843567990}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 90.124535, y: 9.5, z: 164.85944}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -325,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1707584440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,12 +388,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafac95600d27464aa748739048d1b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 3802058745283812368, guid: d61cf6abe1e0138438436b057213338c, type: 3}
+  Grass: {fileID: 3802058745283812368, guid: d61cf6abe1e0138438436b057213338c, type: 3}
+  dirt: {fileID: 7914801030805806652, guid: 8c8e950fe82bd2a4580accc21dd55745, type: 3}
+  water: {fileID: 4232403312746174541, guid: 0413fdebe3369724eb10aabb14310f6c, type: 3}
   width: 200
-  height: 7
+  height: 2
   large: 200
   seed: 5
   detail: 30
+  minWaterDistance: 2
+  maxWaterDistance: 7
 --- !u!4 &1707584441
 Transform:
   m_ObjectHideFlags: 0
@@ -366,3 +420,4 @@ SceneRoots:
   - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 1707584441}
+  - {fileID: 843567992}
