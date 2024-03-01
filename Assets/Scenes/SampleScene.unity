@@ -233,7 +233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &843567991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,7 +375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1707584440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,9 +391,9 @@ MonoBehaviour:
   Grass: {fileID: 3802058745283812368, guid: d61cf6abe1e0138438436b057213338c, type: 3}
   dirt: {fileID: 7914801030805806652, guid: 8c8e950fe82bd2a4580accc21dd55745, type: 3}
   water: {fileID: 4232403312746174541, guid: 0413fdebe3369724eb10aabb14310f6c, type: 3}
-  width: 200
+  width: 150
   height: 2
-  large: 200
+  large: 150
   seed: 5
   detail: 30
   minWaterDistance: 2
