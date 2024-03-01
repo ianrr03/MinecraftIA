@@ -60,7 +60,7 @@ public class Generador : MonoBehaviour
             }
         }
 
-
+        /////
         //void spawnObj(GameObject obj, int x, int y, int z) //agregado bus
         //{
         //    obj = Instantiate(obj, new Vector3(x, y, z), Quaternion.identity);
